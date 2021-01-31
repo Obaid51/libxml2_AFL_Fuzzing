@@ -25,5 +25,5 @@ and then again use the AFL command <br />
 This would start fuzzing. Scroll down in the terminal to view the Fuzzing process.<br /> 
 The directory /output/crashes has all the crashes log and everything.<br /> 
 
-P.s: You can also use the following command to pass the input using Stdin, if you don't want to pass it in binary file by 
+P.s: You can also use the following command to pass the input using Stdin, if you don't want to pass it in binary file by  </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afl-fuzz -i test -o output -- a.out [commnad line input]<br /> 
